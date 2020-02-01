@@ -1,50 +1,47 @@
 .header {
-
+  text-align: center;
 }
 
 .facts {
-
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 100%;
+  border-spacing: 0;
 }
 
-tr {
-
+.facts tr:nth-child(even) {
+  background-color: lightgray;
 }
 
 th {
-
+  text-align: left;
 }
 
-td,
-th {
-
+td, th {
+    padding: 10px;
 }
 
 h3 {
   margin-bottom: 0;
 }
 
-/* Using CSS grid */
+ul {
+  list-style: none;
+}
+
 .links {
+  display: flex;
+  justify-content: space-between;
 }
 
 .links > li {
+  background-color: rgb(54, 52, 211);
+  padding: 20px 115px;
+  color: white;
 }
 
-/* 
-    Using Flexbox
-    You can comment / uncomment this code using cmd+/
-*/
-
-/* 
-.links {
-
-}
-
-.links > li {
-
-}
-*/
 
 .links a {
-
+  color: white;
+  text-decoration: none;
 }

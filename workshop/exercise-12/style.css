@@ -1,18 +1,39 @@
 body {
     margin: 0;
-    font-family: Poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .header {
-
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(105, 105, 238);
+    color: white;
 }
 
 .registration-form {
+    border: 1px;
+    border-radius: 4px;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-right: 10%;
+    box-shadow: 0px 0px 10px 2px lightgray;
+}
 
+.registration-form > label {
+    padding-left: 45%;
+}
+
+.registration-form div:first-of-type {
+    padding-left: 45%;
 }
 
 .text-field {
-
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 3px;
+    padding: 7px 100px;
+    margin-left: 40%;
+    margin-right: 29%;
 }
 
 .radio-label,

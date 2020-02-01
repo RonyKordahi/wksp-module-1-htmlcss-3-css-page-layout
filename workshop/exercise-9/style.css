@@ -4,10 +4,39 @@ body {
 
 .nav {
     background-color: #383737;
+    padding: 20px;
 }
 
 .nav-dropdown {
     color: #fff;
-    text-decoration: none;
-    display: inline-block;
+    background-color: #383737;
+}
+
+.menu {
+    display: none;
+    color: black;
+    position: absolute;
+}
+
+li {
+    background: rgb(59, 200, 243);
+    padding: 20px;
+    border: 1px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav:hover .menu {
+    display: block;
+    left: 0;
+    top: 58px;
+}
+
+li:hover {
+    background: rgb(104, 146, 236);
 }
