@@ -2,18 +2,6 @@
 
 ---
 
-## [CSS Combinators(]https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)
-
-Sometimes, we want need to use a more convoluted targeting method. 😜
-
-- Adjacent sibling combinator `div + p`
-- General sibling combinator `div ~ p`
-- Child combinator `div > p`
-- Descendant combinator `div p`
-
----
-
-
 ## CSS Pixels
 
 - Your monitor is divided into pixels (screen pixels).
@@ -70,7 +58,7 @@ The same site _fixed_
 - Good for heavily stacked information websites
 - Easier for large forms and complex call-to-actions
 - Cost-effective development and maintenance
-- Great for SEO
+- Great for SEO (search engine optimization)
 
 ---
 
@@ -115,9 +103,26 @@ Media queries can be used to check many things, such as:
 
 [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_ex1)
 
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    color: white;
+  }
+
 ---
 
 # Advanced topics
+
+---
+
+## [CSS Combinators(]https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)
+
+Sometimes, we want need to use a more convoluted targeting method. 😜
+
+- Adjacent sibling combinator `div + p` (only the one above and the one below)
+- General sibling combinator `div ~ p` (only within the same container, no children)
+- Child combinator `div > p` (targets direct children only)
+- Descendant combinator `div p` (targets all descendents) 
 
 ---
 
@@ -149,7 +154,7 @@ Media queries can be used to check many things, such as:
 - Rotate
 - Scale
 
-[Try it](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transform) | [Trnasform Generator](https://html-css-js.com/css/generator/transform/)
+[Try it](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transform) | [Transform Generator](https://html-css-js.com/css/generator/transform/)
 
 ---
 

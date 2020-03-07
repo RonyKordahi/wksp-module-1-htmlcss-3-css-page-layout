@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    background-image: url("./imgs/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 2em;
+    margin: 0;
+}

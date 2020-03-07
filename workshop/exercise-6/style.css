@@ -1,0 +1,47 @@
+div {
+    font-family: "Poppins";
+}
+
+.head-container {
+    text-align: center;
+}
+
+.head {
+    font-size: 2.5em;
+    border: solid;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.promo {
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.offer {
+    font-size: 2.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store {
+    font-size: 2.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    color: #06c;
+}
+
+.store:hover {
+    text-decoration: underline;
+}

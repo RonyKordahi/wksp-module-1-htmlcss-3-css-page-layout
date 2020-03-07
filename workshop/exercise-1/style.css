@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    color: white;
+    background: #3E3D3D;
+    padding: 10px;
+}
+
+div {
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.container {
+    min-height: 100vh;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
